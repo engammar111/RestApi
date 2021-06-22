@@ -1,0 +1,29 @@
+Get http://localhost:3000/members
+
+###
+get http://localhost:3000/members/60cf89f8ab57031354bbca98
+
+###
+POST  http://localhost:3000/members/
+Content-Type: application/json
+
+{
+    "name": "ads",
+    "subscriberToChannel" : "ammar Channel"
+}
+
+###
+
+DELETE  http://localhost:3000/members/60cf419b43de9c1b980914ba
+
+###
+
+PATCH   http://localhost:3000/members/60cf43e53172dd37f8b80b2d
+Content-Type: application/json
+
+{
+    "name": "new name",
+    "subscriberToChannel":"new channel"
+}
+
+
